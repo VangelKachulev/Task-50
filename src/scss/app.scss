@@ -27,3 +27,11 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.form {
+  display: flex;
+  flex-flow: column;
+  .input {
+    margin-bottom: 10px;
+  }
+}
